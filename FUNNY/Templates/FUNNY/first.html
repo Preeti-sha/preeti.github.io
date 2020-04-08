@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+/* Style the header */
+.header {
+padding: 80px;
+text-align: center;
+background:#33FFF6;
+color: black;
+}
+/* Increase the font size of the h1 element */
+.header h1 {
+font-size: 40px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>CALLBACK CATS</h1>
+<p><font size="6">Team- Deepika,Priyanka, Matilda and Jiya</font></u>&#128568;
+</div>
+<h2 style="text-align:center">UPLOAD RESUME:</h2>
+
+</style>
+</head>
+<body>
+<center>
+<form action="UserDetails" method="post" enctype="multipart/form-data"> Select file to upload:
+<input type="file" name="fileToUpload" id="fileToUpload">
+<input type="submit" value="Upload File" name="submit">
+   {% csrf_token %}
+</form>
